@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout Kibana Metrics</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/4.1.2/css/foundation.css">
+</head>
+<body>
+	<div class="row" style="max-width: 90%;">
+		<h4>/ws/checkout/confirm <small>BP-DR-*</small></h4>
+	    <div class="small-2 large-4 columns">
+	    	<p><span class="label round alert">35</span></p>
+			<iframe src="https://logs.ebanx.com/_plugin/kibana/#/visualize/create?embed&type=metric&indexPattern=logstash-*&_g=(refreshInterval:(display:Off,pause:!f,section:0,value:0),time:(from:now-30d,mode:quick,to:now))&_a=(filters:!(),linked:!f,query:(query_string:(analyze_wildcard:!t,query:'%22ws%2Fcheckout%2Fconfirm%22%20AND%20%22BP-DR-35%22')),vis:(aggs:!((id:'1',params:(),schema:metric,type:count)),listeners:(),params:(fontSize:60),type:metric))" height="200" width="400"></iframe>
+	    </div>
+	    <div class="small-2 large-4 columns">
+	    	<p><span class="label round alert">38</span></p>
+			<iframe src="https://logs.ebanx.com/_plugin/kibana/#/visualize/create?embed&type=metric&indexPattern=logstash-*&_g=(refreshInterval:(display:Off,pause:!f,section:0,value:0),time:(from:now-30d,mode:quick,to:now))&_a=(filters:!(),linked:!f,query:(query_string:(analyze_wildcard:!t,query:'%22ws%2Fcheckout%2Fconfirm%22%20AND%20%22BP-DR-38%22')),vis:(aggs:!((id:'1',params:(),schema:metric,type:count)),listeners:(),params:(fontSize:60),type:metric))" height="200" width="400"></iframe>
+	    </div>
+	    <div class="small-2 large-4 columns">
+		    <p><span class="label round alert">35</span></p>
+			<iframe src="https://logs.ebanx.com/_plugin/kibana/#/visualize/create?embed&type=metric&indexPattern=logstash-*&_g=(refreshInterval:(display:Off,pause:!f,section:0,value:0),time:(from:now-30d,mode:quick,to:now))&_a=(filters:!(),linked:!f,query:(query_string:(analyze_wildcard:!t,query:'%22ws%2Fcheckout%2Fconfirm%22%20AND%20%22BP-DR-35%22')),vis:(aggs:!((id:'1',params:(),schema:metric,type:count)),listeners:(),params:(fontSize:60),type:metric))" height="200" width="400"></iframe>
+	    </div>
+    </div>
+</div>
+</body>
+</html>
